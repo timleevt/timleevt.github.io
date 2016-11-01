@@ -1,0 +1,23 @@
+body {
+	background: #fff;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+		display: inline;
+}
+
+a:hover {
+	color: blue; // not sure what to color this yet
+}
+
+* {
+	  font-family: 'Inconsolata', monospace;
+}
+h1 {
+
+		font-family: 'Merriweather', serif;
+}
