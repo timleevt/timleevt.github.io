@@ -2,16 +2,17 @@ body {
 	background: #fff;
 }
 
-nav ul {
+li {
 	list-style: none;
 }
 
+/*
 nav ul li {
 		display: inline;
-}
+}*/
 
 a:hover {
-	color: blue; // not sure what to color this yet
+	color: white; // not sure what to color this yet
 }
 
 * {
@@ -20,4 +21,10 @@ a:hover {
 h1 {
 
 		font-family: 'Merriweather', serif;
+}
+
+img {
+	padding-top: 3%;
+	width: 17%;
+	height: 17%;
 }
