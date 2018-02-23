@@ -1,30 +1,35 @@
 body {
-	background: #fff;
+	background: white;
 }
-
-li {
-	list-style: none;
-}
-
-/*
-nav ul li {
-		display: inline;
-}*/
 
 a:hover {
-	color: white; // not sure what to color this yet
+	color: #ff9999;
+	text-decoration: none;
 }
 
-* {
-	  font-family: 'Inconsolata', monospace;
-}
-h1 {
-
-		font-family: 'Merriweather', serif;
+h1, h2 {
+	font-family: 'Unica One', cursive;
+	color: #77C9D4;
 }
 
-img {
-	padding-top: 3%;
-	height: auto%;
-	width: 50%;
+p {
+	font-family: 'Vollkorn', serif;
+	color: black;
 }
+
+.centerDiv{
+	 /* Must manually set width/height */
+	 width:800px;
+	 height:610px;
+	
+	 /* The magic centering code */
+	 margin:auto;
+	 position:absolute;
+	 top:0;bottom:0; /* Aligns Vertically - Remove for Horizontal Only */
+	 left:0;right:0; /* Aligns Horizontally - Remove for Vertical Only  */
+	
+	 /* Prevent div from overflowing main window */
+	 max-width:100%;
+	 max-height:100%;
+	 overflow:auto;
+  }
