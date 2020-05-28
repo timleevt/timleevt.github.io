@@ -1,24 +1,30 @@
 body {
-	background: white;
+	background: #191919;
 }
 
 a {
 	text-decoration: none;
+	color: #ff9999;
 }
 
 a:hover {
-	color: #ff9999;
+	color: #ffdbdc;
 	text-decoration: none;
 }
 
-h1, h2 {
-	font-family: 'Unica One', cursive;
-	color: #77C9D4;
+h1 {
+	font-family: 'Roboto', light;
+	color: #eaa0a2;
+}
+
+h2 {
+	font-family: 'Lato', serif;
+	color: white;
 }
 
 p {
-	font-family: 'Vollkorn', serif;
-	color: black;
+	font-family: 'Lato', serif;
+	color: white;
 }
 
 .centerDiv{
