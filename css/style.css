@@ -27,7 +27,15 @@ p {
 	color: white;
 }
 
-.centerDiv{
+.projectLink {
+	color: white;
+}
+
+.projectLink:hover {
+	color: #ffdbdc;
+}
+
+.centerDiv {
 	 /* Must manually set width/height */
 	 width:800px;
 	 height:610px;
@@ -42,4 +50,4 @@ p {
 	 max-width:100%;
 	 max-height:100%;
 	 overflow:auto;
-  }
+}
