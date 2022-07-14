@@ -29,6 +29,7 @@ p {
 
 .projectLink {
 	color: white;
+	text-decoration: line-through;
 }
 
 .projectLink:hover {
@@ -50,4 +51,6 @@ p {
 	 max-width:100%;
 	 max-height:100%;
 	 overflow:auto;
+	 
+	 padding: 10px;
 }
