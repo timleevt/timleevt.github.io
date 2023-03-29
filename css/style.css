@@ -29,6 +29,10 @@ p {
 
 .projectLink {
 	color: white;
+}
+
+.deadProjectLink {
+	color: white;
 	text-decoration: line-through;
 }
 

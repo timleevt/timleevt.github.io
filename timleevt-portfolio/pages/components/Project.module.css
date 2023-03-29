@@ -1,0 +1,11 @@
+.container {
+    border: 1px solid #24c1ff;
+    border-radius: 16px;
+    height: 150px;
+    width: 150px;
+    transition: all .2s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.1);
+}

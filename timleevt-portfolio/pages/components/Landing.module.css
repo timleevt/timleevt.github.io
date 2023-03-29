@@ -1,6 +1,24 @@
 .container {
-    border: 1px solid #24c1ff;
+    /* border: 1px solid #24c1ff; */
     border-radius: 12px;
     width: 60%;
-    margin: 0px auto;
+    margin: 100px auto;
+    background-color: #ffffff;
+}
+
+.heading {
+    color: #24c1ff;
+    text-align: center;
+}
+
+.companyLink {
+    color: #d950c9;
+}
+
+/* .companyLink:visited {
+    text-decoration: none;
+} */
+
+.companyLink:hover {
+    color: #de35ca;
 }

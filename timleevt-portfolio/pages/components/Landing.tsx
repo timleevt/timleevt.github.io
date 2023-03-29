@@ -1,15 +1,17 @@
 import styles from './Landing.module.css';
 import Links from './Links';
+import ProjectContainer from './ProjectContainer';
 
 const Landing = () => {
     return ( 
         <div className={styles.container}>
-            <h1>Tim Lee</h1>
-            <h2>Software Engineer @ <a href="https://www.playnext-lab.co.jp/">PlayNext Lab Inc.</a></h2>
+            <h1 className={styles.heading}>Tim Lee</h1>
+            <h2 className={styles.heading}>Software Engineer@<a className={styles.companyLink} href="https://www.playnext-lab.co.jp/">PlayNext Lab Inc.</a></h2>
             <div className="container">
                   <h2> Projects </h2>
-                  <p><a href="#" >The People&apos;s Champ - Boxing Ranking Aggregator</a></p>
-                  <p id="project_tpc">
+                  <ProjectContainer />
+                  {/* <p><a href="#" >The People&apos;s Champ - Boxing Ranking Aggregator</a></p> */}
+                  {/* <p id="project_tpc">
                         Boxing &quot;pound for pound&quot; lists are subjective ranking lists put together by pundits to display
                         who they view
                         to be the current best boxers across all weight classes.
@@ -24,7 +26,7 @@ const Landing = () => {
 
                         links:<br />
                         <Links />
-                  </p>
+                  </p> */}
                   </div>
             </div>
      );
